@@ -1,0 +1,22 @@
+We include the R libraries used for data input, processing, analysis and visualization.
+
+```{r,message=FALSE,warning=FALSE}
+library(caret)
+library(corrplot)
+library(readr)
+library(knitr)
+library(kableExtra)
+library(formattable)
+library(dplyr)
+library(tm)
+library(tidyr)
+library(wordcloud)
+library(ggplot2)
+library(gridExtra)
+library(grid)
+library(leaflet)
+library(randomForest)
+options(knitr.table.format = "html") 
+```
+
+We read the files in the dataset.
