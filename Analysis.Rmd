@@ -51,7 +51,7 @@ options(knitr.table.format = "html")
 We read the files in the dataset.
 
 ```{r,input_data, message=FALSE,warning=FALSE}
-script_lines_df <- read_csv("input/simpsons_script_lines.csv")
+script_lines_df <- read_csv("simpsons_script_lines.csv")
 ```
 
 #**Summary of the data**{.tabset .tabset-fade .tabset-pills}
