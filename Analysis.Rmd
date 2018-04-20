@@ -1,22 +1,29 @@
-We include the R libraries used for data input, processing, analysis and visualization.
+#**Import Libraries and source Data**
 
 ```{r,message=FALSE,warning=FALSE}
+library(ggplot2)
+library(gridExtra)
+library(tidyr)
+library(dplyr)
 library(caret)
 library(corrplot)
 library(readr)
 library(knitr)
 library(kableExtra)
 library(formattable)
-library(dplyr)
 library(tm)
-library(tidyr)
 library(wordcloud)
-library(ggplot2)
 library(gridExtra)
 library(grid)
 library(leaflet)
 library(randomForest)
 options(knitr.table.format = "html") 
+
+df <- read_csv("simpsons_script_lines.csv")
 ```
 
-We read the files in the dataset.
+#**Dataframe Exploration**
+
+What does our dataframe look like?
+
+```head(df, n=3)```
