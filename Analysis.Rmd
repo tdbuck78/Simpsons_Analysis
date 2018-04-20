@@ -26,7 +26,8 @@ df <- read_csv("simpsons_script_lines.csv")
 
 What does our dataframe look like?
 
-```{r glimpse_characters}
-head(df, n=3)
+##Script lines
+```{r glimpse_script_lines}
+knitr::kable(head(df,10),caption="Script lines details (first 10 rows)")
 glimpse(df)
 ```
