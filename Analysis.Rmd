@@ -1,4 +1,4 @@
-#**Import Libraries and source Data**
+**Import Libraries and source Data**
 
 ```{r,message=FALSE,warning=FALSE}
 library(ggplot2)
@@ -22,8 +22,11 @@ options(knitr.table.format = "html")
 df <- read_csv("simpsons_script_lines.csv")
 ```
 
-#**Dataframe Exploration**
+**Dataframe Exploration**
 
 What does our dataframe look like?
 
-```head(df, n=3)```
+```{r glimpse_characters}
+head(df, n=3)
+glimpse(characters_df)
+```
