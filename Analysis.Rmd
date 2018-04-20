@@ -51,9 +51,6 @@ options(knitr.table.format = "html")
 We read the files in the dataset.
 
 ```{r,input_data, message=FALSE,warning=FALSE}
-characters_df <- read_csv('../input/simpsons_characters.csv')
-episodes_df <- read_csv("../input/simpsons_episodes.csv")
-locations_df <- read_csv("../input/simpsons_locations.csv")
 script_lines_df <- read_csv("../input/simpsons_script_lines.csv")
 ```
 
@@ -65,8 +62,6 @@ We have 4 data files in Simpsons dataset, as following:
 
 * simpsons_script_lines.csv (`r nrow(script_lines_df)` rows, `r length(names(script_lines_df))` columns)  
 
-
-Let's see the first few rows of each data file and also glimpse these data files.
 
 
 ##Script lines
