@@ -28,5 +28,5 @@ What does our dataframe look like?
 
 ```{r glimpse_characters}
 head(df, n=3)
-glimpse(characters_df)
+glimpse(df)
 ```
